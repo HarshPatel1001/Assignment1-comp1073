@@ -1,0 +1,60 @@
+/* Base Styles
+   ========================================================================== */
+
+/* Style the body to use a sans-serif font, center content both horizontally and vertically,
+   make the background light grey, and remove default margin */
+   body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+/* Container Styles
+   ========================================================================== */
+
+/* Style the container to have a white background, rounded corners,
+   padding inside, a subtle shadow, and center the text */
+#container {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+/* Button Styles
+   ========================================================================== */
+
+/* Style the button to be centered, have padding, larger text,
+   no border, rounded corners, blue background, white text, and a pointer cursor */
+button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+}
+
+/* Change the button background color when hovered to a darker blue */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Story Text Styles
+   ========================================================================== */
+
+/* Style the story text to have a margin at the top, larger font size,
+   and bold font weight */
+#story-text {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}

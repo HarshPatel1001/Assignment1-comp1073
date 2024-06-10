@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Define character encoding and set viewport for responsiveness -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Set the title of the page -->
+    <title>See 'N' Say Storymaker</title>
+    <!-- Link to normalize.css for cross-browser consistency -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Link to main.css for custom styles -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <!-- Container for the application -->
+    <div id="container">
+        <!-- Heading for the application -->
+        <h1>See 'N' Say Storymaker</h1>
+        <!-- Buttons to generate different parts of the story -->
+        <button id="noun1-btn">Generate Subject</button>
+        <button id="verb-btn">Generate Verb</button>
+        <button id="adjective-btn">Generate Adjective</button>
+        <button id="noun2-btn">Generate Object</button>
+        <button id="place-btn">Generate Place</button>
+        <!-- Button to speak the generated story -->
+        <button id="speak-btn">Speak Story</button>
+        <!-- Button to generate a completely random story -->
+        <button id="random-story-btn">Generate Random Story</button>
+        <!-- Button to reset the story to its initial state -->
+        <button id="reset-btn">Reset Story</button>
+        <!-- Paragraph element to display the generated story -->
+        <p id="story-text"></p>
+    </div>
+    <!-- JavaScript file for the application logic -->
+    <script src="js/app.js"></script>
+</body>
+
+</html>
